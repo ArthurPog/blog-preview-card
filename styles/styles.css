@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('ttf');
+}
+
+:root {
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    --font-size-h2: 1.5rem;
+    --font-size-info: .875rem;
+    --font-size-h2-s: 1.25rem;
+    --font-size-info-s: .75rem;
+    --font-size-p-s: .875rem;
+    --line-height-h2: 2.25rem;
+    --line-height-info: 1.313rem;
+    --line-height-p: 1.5rem;
+    --line-height-h2-s: 1.875rem;
+    --line-height-info-s: 1.125rem;
+    --line-height-p-s: 1.313rem;
+    --clr-Yellow: hsl(47, 88%, 63%);
+    --clr-Grey: hsl(0, 0%, 50%);
+    --clr-Black: hsl(0, 0%, 7%);
+    color: var(--clr-Black);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    background-color: var(--clr-Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    filter: drop-shadow(1rem 1rem 0px black);
+}
+
+.blog-post {
+    max-width: 24rem;
+    padding: 1.5rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1.25rem;
+    background-color: white;
+}
+
+.article-img {
+    border-radius: .625rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    font-size: var(--font-size-info);
+    font-weight: 900;
+    background-color: var(--clr-Yellow);
+    padding: .25rem .75rem;
+    border-radius: .25rem;
+}
+
+.tags {
+    margin-bottom: .75rem;
+}
+
+.blog-date {
+    display: block;
+    font-size: var(--font-size-info);
+    margin-bottom: .75rem;
+}
+
+.blog-title {
+    display: block;
+    font-size: var(--font-size-h2);
+    color: var(--clr-Black);
+    font-weight: 900;
+    margin-bottom: .75rem;
+}
+
+.blog-description {
+    color: var(--clr-Grey);
+    line-height: var(--line-height-p);
+    margin-bottom: 1.5rem;
+}
+
+.author {
+    font-size: var(--font-size-info);
+    font-weight: 900;
+}
+
+.article-avatar {
+    max-width: 2rem;
+    margin-right: .75rem;
+}
+
+.article-footer {
+    display: flex;
+    align-items: center;
+}
+
+.blog-post:hover .blog-title{
+    color: var(--clr-Yellow);
+}
