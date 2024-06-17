@@ -57,7 +57,8 @@ body {
 
 .tag {
     font-size: var(--font-size-info);
-    font-weight: 900;
+    line-height: var(--line-height-info);
+    font-weight: 800;
     background-color: var(--clr-Yellow);
     padding: .25rem .75rem;
     border-radius: .25rem;
@@ -70,6 +71,7 @@ body {
 .blog-date {
     display: block;
     font-size: var(--font-size-info);
+    line-height: var(--line-height-info);
     margin-bottom: .75rem;
 }
 
@@ -77,7 +79,7 @@ body {
     display: block;
     font-size: var(--font-size-h2);
     color: var(--clr-Black);
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom: .75rem;
 }
 
@@ -89,7 +91,7 @@ body {
 
 .author {
     font-size: var(--font-size-info);
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .article-avatar {
@@ -117,14 +119,17 @@ body {
 
     .tag {
         font-size: var(--font-size-info-s);
+        line-height: var(--line-height-info-s);
     }
 
     .blog-date {
         font-size: var(--font-size-info-s);
+        line-height: var(--line-height-info-s);
     }
 
     .blog-title {
         font-size: var(--font-size-h2-s);
+        line-height: var(--line-height-h2-s);
     }
 
     .blog-description {
