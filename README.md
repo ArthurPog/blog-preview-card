@@ -1,4 +1,4 @@
-# My twelfth project and solution to the blog preview card challenge over at [Frontend Mentor](https://www.frontendmentor.io/challenges)
+# My fourteenth project and solution to the blog preview card challenge over at [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 ## Table of contents
 - [The challenge](#the-challenge)
